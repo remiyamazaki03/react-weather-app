@@ -1,30 +1,32 @@
 import React from "react";
 import Current from "./Current";
+import Forecast from "./Forecast";
 
 export default function Search() {
   return (
     <div className="container">
       <form className="Search" id="enterCity">
-        <div class="row">
-          <div class="col-md-7">
+        <div className="row">
+          <div className="col-md-7">
             <input
               type="text"
-              class="form-control"
+              className="form-control"
               id="city"
               placeholder="Enter a city"
             />
           </div>
-          <div class="col-md-2">
-            <button type="submit" class="btn btn-primary my-3 my-md-0">
+          <div className="col-md-2">
+            <button type="submit" className="btn btn-primary my-3 my-md-0">
               Search
             </button>
           </div>
-          <div class="col-md-3">
-            <button class="btn btn-primary">Current</button>
+          <div className="col-md-3">
+            <button className="btn btn-primary">Current</button>
           </div>
         </div>
       </form>
       <Current />
+      <Forecast />
     </div>
   );
 }

@@ -1,0 +1,16 @@
+:root {
+  --brand-color: purple;
+  --secondary-color: blue;
+  --main-background-color: white;
+  --shadow-color: pink;
+}
+
+.App {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 60px;
+  padding: 30px 0px 30px 0px;
+  background-color: var(--shadow-color);
+  border: 1px solid var(--brand-color);
+  border-radius: 10px;
+}

@@ -3,15 +3,13 @@ import Search from "./Search";
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="container">
-      <h1 className="App text-center mt-5">How's the weather today?</h1>
-      <div className="card card-body">
+      <h1 className="text-center mt-5">How's the weather today?</h1>
+      <div className="App card card-body">
         <Search />
       </div>
     </div>
   );
 }
-
-export default App;
