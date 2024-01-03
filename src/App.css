@@ -2,7 +2,7 @@
   --brand-color: purple;
   --secondary-color: blue;
   --main-background-color: white;
-  --shadow-color: pink;
+  --shadow-color: orange;
 }
 
 .App {
@@ -10,7 +10,17 @@
   margin: 0 auto;
   margin-top: 60px;
   padding: 30px 0px 30px 0px;
-  background-color: var(--shadow-color);
+  background-color: var(--main-background-color);
   border: 1px solid var(--brand-color);
   border-radius: 10px;
+}
+.labels {
+  color: var(--shadow-color);
+  opacity: 0.7;
+  font-size: 16px;
+}
+.icon {
+  display: block;
+  position: relative;
+  left: -35px;
 }
