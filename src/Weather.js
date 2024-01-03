@@ -1,6 +1,8 @@
 import React from "react";
+import axios from "axios";
+import Forecast from "./Forecast";
 
-export default function Current() {
+export default function Weather() {
   return (
     <div className="container">
       <div className="row mt-4">
@@ -46,6 +48,7 @@ export default function Current() {
           )
         </h5>
       </div>
+      <Forecast />
     </div>
   );
 }
