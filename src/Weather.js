@@ -38,14 +38,8 @@ export default function Weather() {
         <div class="row">
           <h5>
             <span id="average">{temperature}</span>
-            <a href="#" id="toCelsius">
-              °C
-            </a>
-            |
-            <a href="#" id="toFahrenheit">
-              °F
-            </a>
-            (
+            <button id="toCelsius">°C</button>|
+            <button id="toFahrenheit">°F</button>(
             <span class="high" id="highToday">
               high°C
             </span>
